@@ -1,5 +1,7 @@
 # CogniWeave Memory
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 `cogniweave-layered-impl` is the current Python package name for CogniWeave Memory, a local-first Python framework for layered multi-channel memory, retrieval-augmented workflows, and agent execution with memory writeback.
 
 This `0.1.x` release line is the first public packaging line. It is based on the internal architecture milestone `范式+记忆系统&RAG重构 v0.2`, while keeping the framework's core behavior aligned with that code line and focusing this release on packaging, dependency declaration, and documentation.
