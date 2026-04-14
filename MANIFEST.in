@@ -1,0 +1,14 @@
+include README.md
+include CHANGELOG.md
+include .env.example
+include requirements.txt
+include demo.py
+include smoke_test.py
+include DEVELOPMENT_GUIDE.md
+include INTEGRATION_GUIDE.md
+include MINIMAX_SETUP.md
+include docker-compose.optional.yml
+include docker-compose.integration.yml
+include environment.miniconda.yml
+recursive-include scripts *.py *.sh
+recursive-include tests *.py

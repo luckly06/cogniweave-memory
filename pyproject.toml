@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cogniweave-layered-impl"
+version = "0.1.0"
+description = "Layered multi-channel cognitive memory framework with local-first storage, RAG, and optional graph integration."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+  { name = "CogniWeave contributors" }
+]
+keywords = ["agent", "memory", "rag", "qdrant", "neo4j", "llm"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+  "python-dotenv>=1.0.0",
+  "qdrant-client==1.17.1",
+]
+
+[project.optional-dependencies]
+minimax = [
+  "openai==2.30.0",
+]
+graph = [
+  "neo4j==6.1.0",
+]
+all = [
+  "openai==2.30.0",
+  "neo4j==6.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/luckly06/cogniweave-memory"
+Repository = "https://github.com/luckly06/cogniweave-memory"
+Issues = "https://github.com/luckly06/cogniweave-memory/issues"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ["cogniweave_full*"]

@@ -1,0 +1,29 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.17.1
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:6333/collections"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+    volumes:
+      - ./runtime/integration/qdrant:/qdrant/storage
+
+  neo4j:
+    image: neo4j:5.26.24-community
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/secretgraph
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+    volumes:
+      - ./runtime/integration/neo4j/data:/data
+      - ./runtime/integration/neo4j/logs:/logs
