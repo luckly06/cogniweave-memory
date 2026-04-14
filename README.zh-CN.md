@@ -27,6 +27,12 @@
 pip install cogni-mem
 ```
 
+安装当前文档对应的固定版本：
+
+```bash
+pip install cogni-mem==0.1.0
+```
+
 安装 MiniMax provider 支持：
 
 ```bash

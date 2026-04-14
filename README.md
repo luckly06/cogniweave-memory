@@ -27,6 +27,12 @@ Base install:
 pip install cogni-mem
 ```
 
+Install the current documented release explicitly:
+
+```bash
+pip install cogni-mem==0.1.0
+```
+
 Install with MiniMax provider support:
 
 ```bash
