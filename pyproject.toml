@@ -8,7 +8,6 @@ version = "0.1.0"
 description = "Layered multi-channel cognitive memory framework with local-first storage, RAG, and optional graph integration."
 readme = "README.md"
 requires-python = ">=3.11"
-license = "MIT"
 authors = [
   { name = "CogniWeave contributors" }
 ]
@@ -45,6 +44,7 @@ Issues = "https://github.com/luckly06/cogniweave-memory/issues"
 
 [tool.setuptools]
 include-package-data = false
+license-files = []
 
 [tool.setuptools.packages.find]
 include = ["cogniweave_full*"]
