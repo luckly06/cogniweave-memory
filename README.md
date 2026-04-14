@@ -8,7 +8,7 @@ This `0.1.x` release line is the first public packaging line. It is based on the
 
 ## Notes
 
-For full design notes, diagrams, and the swimlane flow, see [docs/note.md](docs/note.md).
+For full design notes, diagrams, and the architecture overview in English, see [docs/note.en.md](docs/note.en.md).
 
 ## What Is Included
 

@@ -1,3 +1,5 @@
+[English](note.en.md) | [中文](note.md)
+
 ![alt text](./image.png)
 - 低代码平台，如coze【只是native RAG】；
 - 普通RAG只搞知识库【减少常见幻觉做法:markdown是表格，需要转换为html的table来处理】（不否定主流调用框架langchain和开发框架langraph好用）；
