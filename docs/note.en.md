@@ -40,6 +40,7 @@ This design can support:
 - tool-heavy execution systems
 - automation workflows in business environments
 
+```markdown
 Local memory channels:
 
 - Semantic Memory: facts and knowledge
@@ -53,12 +54,21 @@ Capability channels:
 - MCP tools
 - external agents
 - remote CLI environments such as SSH, containers, or cloud functions
+```
 
+```markdown
 This direction is also informed by systems such as:
 
 - Claude Code style agent loops
 - OpenHarness style execution UIs
 - DeerFlow-style multi-agent streaming execution
+```
+
+```markdown
+New idea:
+
+- embed a reusable skill layer for composable task units
+```
 
 The long-term issue is still the same symbolic bottleneck: a dynamic world is hard to “solve” unless the solving strategy is tightly coupled with the problem domain itself.
 

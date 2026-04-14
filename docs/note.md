@@ -17,6 +17,7 @@
 ### 如：做我现在v0.3的不同方向【重构v0.3版（Context-v0.1版）是上下文工程下的精进】。
 “各记忆通道改参数”可按需更改。
 - 可用于做放工具的【产品化面向cli的】，CLI 工具型产品（如 coding agent）。
+```markdown
  本地 Memory 通道：
         - Semantic Memory（事实 / 知识）
         - Episodic Memory（历史轨迹）
@@ -28,8 +29,12 @@
         - MCP Tools（标准化工具）
         - 外部 Agent（作为 Retriever / 子代理）
         - 远程 CLI（SSH / 容器 / 云函数）
-略        
+略      
+
+```
+  
 - 多 Agent 协作系统/Agent + 工具混合执行系统：
+```markdown
 多 Agent 编排（Ralph Loop / harness agent）
 Repo 作为记录系统（agent.md / ARCHITECTURE.md / PLAN.md）
 端到端契约一致性。（输入输出结构稳定）
@@ -37,8 +42,13 @@ Repo 作为记录系统（agent.md / ARCHITECTURE.md / PLAN.md）
 eg:参考cc源码(claude code);
   港大开源的框架openharness(前端React渲染了一下cli界面的“claide code蒸馏版”)；
   字节开源的DeerFlow - 2.0（多 Agent 流式执行）
+```
+
 - 处理自动化办公（参考 openclaw / harness-agent）等
+```markdown
 有新想法：嵌入【女娲skill】[Skill Layer（可复用任务单元）]
+
+```
 
 做框架做着做着依旧回到符号主义遇到的问题：动态的世界不好“解”【解决问题需要将解决方案和问题域特性结合起来】,技术手段难以达到期望状况。
 
