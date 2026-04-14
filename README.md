@@ -4,6 +4,10 @@
 
 This `0.1.x` release line is the first public packaging line. It is based on the internal architecture milestone `范式+记忆系统&RAG重构 v0.2`, while keeping the framework's core behavior aligned with that code line and focusing this release on packaging, dependency declaration, and documentation.
 
+## Notes
+
+For full design notes, diagrams, and the swimlane flow, see [docs/note.md](docs/note.md).
+
 ## What Is Included
 
 - Local-first memory runtime with JSON, SQLite, and local Qdrant path mode
