@@ -9,6 +9,7 @@
 ## 说明文档
 
 完整设计笔记、配图和泳道图说明见 [docs/note.md](docs/note.md)。
+`v0.1.0` 的发布说明见 [docs/releases/v0.1.0.zh-CN.md](docs/releases/v0.1.0.zh-CN.md)。
 
 ## 框架包含内容
 

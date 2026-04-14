@@ -9,6 +9,7 @@ This `0.1.x` release line is the first public packaging line. It is based on the
 ## Notes
 
 For full design notes, diagrams, and the architecture overview in English, see [docs/note.en.md](docs/note.en.md).
+For the release summary of `v0.1.0`, see [docs/releases/v0.1.0.md](docs/releases/v0.1.0.md).
 
 ## What Is Included
 
