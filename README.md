@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README.zh-CN.md)
 
-`cogniweave-layered-impl` is the current Python package name for CogniWeave Memory, a local-first Python framework for layered multi-channel memory, retrieval-augmented workflows, and agent execution with memory writeback.
+`cogni-mem` is the current Python package name for CogniWeave Memory, a local-first Python framework for layered multi-channel memory, retrieval-augmented workflows, and agent execution with memory writeback.
 
 This `0.1.x` release line is the first public packaging line. It is based on the internal architecture milestone `范式+记忆系统&RAG重构 v0.2`, while keeping the framework's core behavior aligned with that code line and focusing this release on packaging, dependency declaration, and documentation.
 
@@ -23,19 +23,19 @@ For full design notes, diagrams, and the architecture overview in English, see [
 Base install:
 
 ```bash
-pip install cogniweave-layered-impl
+pip install cogni-mem
 ```
 
 Install with MiniMax provider support:
 
 ```bash
-pip install "cogniweave-layered-impl[minimax]"
+pip install "cogni-mem[minimax]"
 ```
 
 Install with Neo4j graph support:
 
 ```bash
-pip install "cogniweave-layered-impl[graph]"
+pip install "cogni-mem[graph]"
 ```
 
 Install from the GitHub repository tag:

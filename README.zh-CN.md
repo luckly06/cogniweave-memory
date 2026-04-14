@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README.zh-CN.md)
 
-`cogniweave-layered-impl` 是 CogniWeave Memory 当前使用的 Python 包名。它是一个面向智能体的本地优先 Python 记忆框架，核心关注多通道记忆、检索增强工作流，以及带记忆写回能力的执行链路。
+`cogni-mem` 是 CogniWeave Memory 当前使用的 Python 包名。它是一个面向智能体的本地优先 Python 记忆框架，核心关注多通道记忆、检索增强工作流，以及带记忆写回能力的执行链路。
 
 当前 `0.1.x` 系列是首个公开发布线。它基于内部架构阶段 `范式+记忆系统&RAG重构 v0.2` 整理而来，核心框架行为保持与该代码线一致，这一阶段主要补齐打包、依赖声明和文档入口。
 
@@ -23,19 +23,19 @@
 基础安装：
 
 ```bash
-pip install cogniweave-layered-impl
+pip install cogni-mem
 ```
 
 安装 MiniMax provider 支持：
 
 ```bash
-pip install "cogniweave-layered-impl[minimax]"
+pip install "cogni-mem[minimax]"
 ```
 
 安装 Neo4j 图能力支持：
 
 ```bash
-pip install "cogniweave-layered-impl[graph]"
+pip install "cogni-mem[graph]"
 ```
 
 从 GitHub tag 安装：
